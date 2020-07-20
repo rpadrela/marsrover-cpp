@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABF126524726D9300D5E0AC /* MarsRoverTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AABF126424726D9200D5E0AC /* MarsRoverTest.cpp */; };
+		AABF126824727A1A00D5E0AC /* MarsRover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AABF126624727A1A00D5E0AC /* MarsRover.cpp */; };
+		AABF126D2475169700D5E0AC /* MarsRoverController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AABF126C2475169700D5E0AC /* MarsRoverController.cpp */; };
+		AABF126F2476743C00D5E0AC /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AABF126E2476743C00D5E0AC /* Vector2.cpp */; };
+		AABF1271247674D900D5E0AC /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AABF1270247674D900D5E0AC /* Transform.cpp */; };
+		AABF12732477CBB600D5E0AC /* MarsRoverControllerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AABF12722477CBB600D5E0AC /* MarsRoverControllerTest.cpp */; };
+		AABF1277247CFB8200D5E0AC /* CardinalCompass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AABF1276247CFB8200D5E0AC /* CardinalCompass.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AABF125724726BF700D5E0AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AABF125924726BF700D5E0AC /* MarsRoverTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarsRoverTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABF126424726D9200D5E0AC /* MarsRoverTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarsRoverTest.cpp; sourceTree = "<group>"; };
+		AABF126624727A1A00D5E0AC /* MarsRover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarsRover.cpp; sourceTree = "<group>"; };
+		AABF126724727A1A00D5E0AC /* MarsRover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsRover.h; sourceTree = "<group>"; };
+		AABF1269247514AC00D5E0AC /* Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		AABF126A247514AC00D5E0AC /* Vector2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
+		AABF126B2475169700D5E0AC /* MarsRoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsRoverController.h; sourceTree = "<group>"; };
+		AABF126C2475169700D5E0AC /* MarsRoverController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarsRoverController.cpp; sourceTree = "<group>"; };
+		AABF126E2476743C00D5E0AC /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2.cpp; sourceTree = "<group>"; };
+		AABF1270247674D900D5E0AC /* Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transform.cpp; sourceTree = "<group>"; };
+		AABF12722477CBB600D5E0AC /* MarsRoverControllerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MarsRoverControllerTest.cpp; sourceTree = "<group>"; };
+		AABF1275247CFABD00D5E0AC /* CardinalCompass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardinalCompass.h; sourceTree = "<group>"; };
+		AABF1276247CFB8200D5E0AC /* CardinalCompass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardinalCompass.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABF125624726BF700D5E0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABF125024726BF600D5E0AC = {
+			isa = PBXGroup;
+			children = (
+				AABF125B24726BF700D5E0AC /* Source */,
+				AABF125A24726BF700D5E0AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABF125A24726BF700D5E0AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABF125924726BF700D5E0AC /* MarsRoverTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABF125B24726BF700D5E0AC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AABF126624727A1A00D5E0AC /* MarsRover.cpp */,
+				AABF126724727A1A00D5E0AC /* MarsRover.h */,
+				AABF126C2475169700D5E0AC /* MarsRoverController.cpp */,
+				AABF126B2475169700D5E0AC /* MarsRoverController.h */,
+				AABF1270247674D900D5E0AC /* Transform.cpp */,
+				AABF1269247514AC00D5E0AC /* Transform.h */,
+				AABF126A247514AC00D5E0AC /* Vector2.h */,
+				AABF126E2476743C00D5E0AC /* Vector2.cpp */,
+				AABF1275247CFABD00D5E0AC /* CardinalCompass.h */,
+				AABF1276247CFB8200D5E0AC /* CardinalCompass.cpp */,
+				AABF126324726D0500D5E0AC /* Tests */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		AABF126324726D0500D5E0AC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AABF12722477CBB600D5E0AC /* MarsRoverControllerTest.cpp */,
+				AABF126424726D9200D5E0AC /* MarsRoverTest.cpp */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABF125824726BF700D5E0AC /* MarsRoverTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABF126024726BF700D5E0AC /* Build configuration list for PBXNativeTarget "MarsRoverTest" */;
+			buildPhases = (
+				AABF125524726BF700D5E0AC /* Sources */,
+				AABF125624726BF700D5E0AC /* Frameworks */,
+				AABF125724726BF700D5E0AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsRoverTest;
+			productName = MarsRoverKata;
+			productReference = AABF125924726BF700D5E0AC /* MarsRoverTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABF125124726BF700D5E0AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = rpadrela.com;
+				TargetAttributes = {
+					AABF125824726BF700D5E0AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AABF125424726BF700D5E0AC /* Build configuration list for PBXProject "MarsRover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AABF125024726BF600D5E0AC;
+			productRefGroup = AABF125A24726BF700D5E0AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABF125824726BF700D5E0AC /* MarsRoverTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABF125524726BF700D5E0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABF1271247674D900D5E0AC /* Transform.cpp in Sources */,
+				AABF12732477CBB600D5E0AC /* MarsRoverControllerTest.cpp in Sources */,
+				AABF126524726D9300D5E0AC /* MarsRoverTest.cpp in Sources */,
+				AABF1277247CFB8200D5E0AC /* CardinalCompass.cpp in Sources */,
+				AABF126F2476743C00D5E0AC /* Vector2.cpp in Sources */,
+				AABF126D2475169700D5E0AC /* MarsRoverController.cpp in Sources */,
+				AABF126824727A1A00D5E0AC /* MarsRover.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABF125E24726BF700D5E0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../../shared/Libs/ThirdParty/catch2/Includes/;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AABF125F24726BF700D5E0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../../shared/Libs/ThirdParty/catch2/Includes/;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AABF126124726BF700D5E0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = ../../Binaries;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AABF126224726BF700D5E0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = ../../Binaries;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABF125424726BF700D5E0AC /* Build configuration list for PBXProject "MarsRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABF125E24726BF700D5E0AC /* Debug */,
+				AABF125F24726BF700D5E0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABF126024726BF700D5E0AC /* Build configuration list for PBXNativeTarget "MarsRoverTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABF126124726BF700D5E0AC /* Debug */,
+				AABF126224726BF700D5E0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AABF125124726BF700D5E0AC /* Project object */;
+}
